@@ -119,6 +119,29 @@ nav{
 .contact-link{
     color: var(--secondary-text-color);
 }
+.contact-link.mail::before{
+    content: "";
+    width: 20px;
+    height: 15px;
+    background-image: url(./images/mail.svg);
+    display: inline-flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+
+}
+.contact-link.tel::before{
+    content: "";
+    width: 20px;
+    height: 15px;
+    background-image: url(./images/Vector.svg);
+    display: inline-flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+
+}
+
 
 /* Секція герой */
 .section.hero{
